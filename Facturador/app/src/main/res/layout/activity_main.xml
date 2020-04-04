@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:visibility="visible"
+        android:layout_margin="20dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:ems="10"
+            android:paddingBottom="20dp"/>
+
+
+        <TextView
+            android:id="@+id/tw_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:text="Ingrese su usuario"
+
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_usuario"
+            android:inputType="text"
+
+            />
+
+        <TextView
+            android:id="@+id/tw_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:text="Ingrese su clave"
+
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_clave"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_iniciar"
+            android:text="Login"
+            android:textColor="@android:color/black"
+            android:background="@android:color/holo_blue_bright"
+
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_salir"
+            android:text="Salir"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
