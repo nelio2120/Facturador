@@ -1,4 +1,50 @@
 <resources>
     <string name="app_name">Facturador</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Crear Usuario</string>
+    <string name="asignar_item">Asignar Equipo Comercio</string>
+    <string name="Sincronizar_item">Sincronizacion</string>
+    <string name="editar">EDITAR</string>
+    <string name="crear">Crear</string>
+    <string name="usuario">USUARIO</string>
+    <string name="clave">CLAVE</string>
+    <string name="confclave">CONFIRMAR CLAVE</string>
+    <string name="rolpalabra">ROL</string>
+    <string name="idpersona">PERSONA</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="salir">Salir</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="Nombre">Rol:</string>
+    <string name="Apellido">Persona:</string>
+
+    <string name="Equipo">Equipo:</string>
+    <string name="Comercio">Comercio:</string>
+    <string name="detalle">Lista de Equipos Comercio:</string>
+
+
+
+    <string name="Usuario">Usuario</string>
+    <string name="Cedula">Usuario</string>
+    <string name="Clave">Clave</string>
+    <string name="Estado">Estado</string>
+    <string name="mensaje">Bienvenidos</string>
+    <string name="recordar">Recordar credenciales</string>
+    <string name="reservaciones">Lista de Usuarios</string>
+    <string name="Observacion">Observacion</string>
+    <string name="cant_asientos">Cantidad de asientos</string>
+    <string name="clientes_registrados">Lista de clientes registrados</string>
+    <string name="formulario_usuario">Formulario de registro</string>
+    <string name="hora">Hora</string>
+    <string name="reservacion">reservado</string>
+    <string name="estado">Estado</string>
+    <string name="listReservaciones">Listar Reservaciones</string>
+    <string name="agregarUsuario">Agregar usuario</string>
+    <string name="agregarReserva">Crear Reservacion</string>
+    <string name="conf_contra">Confirmar contraseña</string>
+
+    <string name="editarUsuario">Editar Usuario</string>
+    <string name="eliminarUsuario">Eliminar Usuario</string>
+
+
 </resources>

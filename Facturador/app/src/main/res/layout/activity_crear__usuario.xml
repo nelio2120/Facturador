@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.Crear_Usuario_Acticity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#F7F7F7"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_margin="20dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crear"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:ems="10"
+            android:paddingBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="@string/usuario"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editUsuario"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="@string/clave"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editClave"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="@string/confclave"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editConfClave"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tw_usuario"
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="@string/idpersona"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPersona"
+                android:textColor="@android:color/holo_blue_dark"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:text="@string/rolpalabra"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_Rol"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_guardar_usuario"
+            android:text="@string/guardar"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

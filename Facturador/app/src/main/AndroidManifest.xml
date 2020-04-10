@@ -2,17 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.facturador">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/networksecurityconfig"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Activity.Activity.Listar_Detalle_equipo"></activity>
+        <activity android:name=".Activity.Activity.Crear_Usuario_Acticity" />
+        <activity android:name=".Activity.Activity.Listar_activity_Usuario" />
+        <activity android:name=".Activity.Activity.UpdateUsuarioActivity" />
+        <activity android:name=".Activity.Activity.activity_asignacion" />
+        <activity android:name=".SincronizacionActivity" />
+        <activity android:name=".Activity.Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
